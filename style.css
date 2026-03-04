@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+
+.header-logo {
+    text-align: center; /* centers logo */
+    margin-bottom: 10px;
+}
+
+.site-logo {
+    height: 70px; /* adjust size */
+    width: auto;
+    object-fit: contain;
+}
+/* Header layout alignment */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styling */
+.logo img {
+    height: 60px;
+    width: auto;
+    display: block;
+}
+
+
+
+.site-header {
+    background: #1f2933;
+    color: white;
+    padding: 20px;
+}
+
+.site-logo{
+    height:65px;
+    width:auto;
+    object-fit:contain;
+}
+
+.site-header nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    background: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header img {
+      max-width: 400px;
+      margin-bottom: 20px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background: #b68d40;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.stat-box {
+    background: white;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.contact {
+    padding: 40px;
+    background: white;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.site-footer {
+    background: #1f2933;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.main-nav {
+    margin-top: 10px;
+}
+
+.main-nav a {
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+.content {
+    background: white;
+    padding: 40px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.practice-list li {
+    margin-bottom: 10px;
+}
